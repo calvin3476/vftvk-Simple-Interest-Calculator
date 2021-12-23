@@ -19,8 +19,10 @@ function compute()
 	
 		
 	if (principal <= 0) {
+		alert("Enter a positive number")
 		
-		document.getElementById("result").innerHTML="Enter a positive number";
+		//document.getElementById("result").innerHTML="Enter a positive number";
+		document.getElementById("result").innerHTML="";
 		//document.getElementById("principal").focus();
 	} 
 	else
